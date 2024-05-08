@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+  line-height: 135%;
+  font-size: 250%;
+  margin-top: 3%;
+  color: #505264;
+}
+
+.description {
+  color: #a5a5a7;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.title, .description:hover{
+    cursor: default;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.left {
+  width: 100%;
+  padding-left: 6%;
+}
+
+.center {
+  width: 100%;
+  padding: 0 3% 0 3%;
+}
+
+.rigth {
+  width: 100%;
+  padding-right: 6%;
+}
+
+.supervisor,
+.teambuilder,
+.karma,
+.calculator {
+  border-radius: 10px;
+  margin: 0%;
+  padding: 0%;
+  box-shadow: 10px 10px 65px #d9e3ee;
+}
+
+.supervisor,
+.teambuilder,
+.karma,
+.calculator:hover {
+    cursor: default;
+}
+
+.supervisor {
+  border-top: #4ad0d0 solid;
+}
+
+.teambuilder {
+  border-top: #e95553 solid;
+}
+
+.karma {
+  border-top: #f8af51 solid;
+}
+
+.calculator {
+  border-top: #569cec solid;
+}
+
+.container {
+  position: relative;
+  border-top: rgb(255, 255, 255) solid 6px;
+  height: 200px;
+  padding: 7%;
+  margin-bottom: 5%;
+}
+
+.container h2 {
+  margin-bottom: 2%;
+  color: #585a6b;
+}
+
+.container p {
+  line-height: 150%;
+  color: #a5a5a7;
+  margin-bottom: 5%;
+}
+
+.container img {
+  width: 25%;
+}
+
+.container img {
+  position: absolute;
+  width: 20%;
+  bottom: 20px; 
+  right: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #505264;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #a5a5a7; 
+}
